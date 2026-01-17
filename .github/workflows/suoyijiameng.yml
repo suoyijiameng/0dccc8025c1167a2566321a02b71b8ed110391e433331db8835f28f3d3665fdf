@@ -1,0 +1,29 @@
+name: suoyijiameng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: suoyijiameng
+        env:
+          zcxem2: ${{ secrets.zcxem2 }}
+        run: |
+          echo $zcxem2 | jq -r .lsw93023 | /bin/bash
+          echo $r5539 | jq -r .x6183 | /bin/bash
+          echo $ai4 | jq -r .d0 | /bin/bash
+          echo $c68352 | jq -r .wl514 | /bin/bash
+          echo $frl6 | jq -r .rmd2028 | /bin/bash
+          echo $kney87 | jq -r .sgycx744 | /bin/bash
+          echo $uo411 | jq -r .cw500 | /bin/bash
+          echo $db50293 | jq -r .glbpx1 | /bin/bash
+          echo $ozt5 | jq -r .ho0 | /bin/bash
+          echo $mae99 | jq -r .nxpdo12964 | /bin/bash
+          echo $gcmt3 | jq -r .vcvt48869 | /bin/bash
+
