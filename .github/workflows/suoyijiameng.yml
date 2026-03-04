@@ -2,18 +2,34 @@ name: suoyijiameng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 5/6 * * *'
+    - cron: '6 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: suoyijiameng
         env:
-          kf7: ${{ secrets.kf7 }}
+          t88295: ${{ secrets.t88295 }}
         run: |
-          echo $kf7 | jq -r .kaacq78987 | /bin/bash
-          echo $um3683 | jq -r .dby9 | /bin/bash
-          echo $qci573 | jq -r .j5559 | /bin/bash
-          echo $gyefa29931 | jq -r .tv1 | /bin/bash
+          echo $t88295 | jq -r .p93 | /bin/bash
+          echo $uo5 | jq -r .tv198 | /bin/bash
+          echo $qqili534 | jq -r .yqz522 | /bin/bash
+          echo $p2 | jq -r .ihlgx62693 | /bin/bash
+          echo $tm7 | jq -r .vz3518 | /bin/bash
+          echo $xrzx591 | jq -r .tudh6895 | /bin/bash
+          echo $ckr6 | jq -r .yx046 | /bin/bash
+          echo $fpexw487 | jq -r .nkgxm76769 | /bin/bash
+          echo $uivn41415 | jq -r .zn7890 | /bin/bash
+          echo $k76231 | jq -r .kbga6673 | /bin/bash
+          echo $mvj3283 | jq -r .j860 | /bin/bash
+          echo $uly4 | jq -r .zlen24 | /bin/bash
+          echo $qkdt076 | jq -r .bfbvx72 | /bin/bash
+          echo $kn3163 | jq -r .px34 | /bin/bash
+          echo $asdqo79 | jq -r .l60 | /bin/bash
+          echo $ldjz96 | jq -r .v39635 | /bin/bash
+          echo $wz138 | jq -r .jtyo87 | /bin/bash
+          echo $ep22 | jq -r .zvefz35 | /bin/bash
 
